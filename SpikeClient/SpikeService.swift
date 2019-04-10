@@ -31,14 +31,14 @@ public class SpikeService: ServiceAuthentication {
          https://github.com/dabear/NightscoutShareServer
          */
 
-        /*
-        let customServer = "https://REPLACEME"
-        let customServerTitle = "Custom"
+        
+        let customServer = "https://mwachowiecshare.azurewebsites.net"
+        let customServerTitle = "Share MW"
 
         credentials[2].options?.append(
                 (title: LocalizedString(customServerTitle, comment: "Custom share server option title"),
                 value: customServer))
-        */
+        
 
         if let username = username, let password = password, let url = url {
             isAuthorized = true
